@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+mne
+pyedflib
+tsflex
+tsfresh
+antropy
+yasa
+catboost
+powershap
+tqdm
+pyarrow
