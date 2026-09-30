@@ -84,15 +84,6 @@ python scripts/02_hyperparameter_search.py    # -> results/best_hyperparams.json
 python scripts/03_train_evaluate.py           # -> results/metrics.json, confusion_matrix.png
 ```
 
-## Results
-
-_Populated after running the scripts above — see `results/metrics.json`._
-
-| Model | Test Macro F1 | Test Balanced Accuracy |
-|---|---|---|
-| Linear (SGD) baseline | — | — |
-| CatBoost (tuned) | — | — |
-
 ## Repo structure
 
 ```
@@ -113,7 +104,6 @@ scripts/
 data/                       # raw dataset (git-ignored, ~8GB — see Dataset section above)
 features/                   # cached feature parquet (git-ignored, regenerable)
 results/                    # metrics.json, best_hyperparams.json (small, committed)
-figures/                    # confusion_matrix.png etc. (small, committed — these feed the website showcase)
 ```
 
 ## Notes on methodology
